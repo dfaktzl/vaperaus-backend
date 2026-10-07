@@ -1,14 +1,16 @@
 {
-  "name": "vaperaus-backend",
-  "version": "1.0.0",
-  "description": "Backend for Vaperaus Checkout and Contact Forms",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "resend": "^3.2.0"
-  }
+    "name":  "vaperaus-backend",
+    "version":  "1.0.0",
+    "description":  "Backend for Vaperaus Checkout and Contact Forms",
+    "main":  "server.js",
+    "scripts":  {
+                    "start":  "node server.js"
+                },
+    "dependencies":  {
+                         "cors":  "^2.8.5",
+                         "express":  "^4.18.2",
+                         "resend":  "^3.2.0",
+                         "react":  "^18.2.0",
+                         "react-dom":  "^18.2.0"
+                     }
 }
